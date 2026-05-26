@@ -16,7 +16,7 @@ ORDER BY total_orders DESC;
 
 SELECT *
 FROM orders
-WHERE order_date >= CURRENT_DATE - INTERVAL '10 days';
+WHERE order_date >= CURRENT_DATE - INTERVAL '30 days';
 
 -- =========================
 -- Calculate total revenue for each product.
