@@ -1,0 +1,6 @@
+Design Choices
+Customers and Orders have a one-to-many relationship.
+Orders and Products use a many-to-many relationship through order_items.
+Payments are separated for flexibility and payment tracking.
+Foreign keys enforce referential integrity.
+Database is normalized to reduce redundancy.
